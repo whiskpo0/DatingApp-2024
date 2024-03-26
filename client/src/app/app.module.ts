@@ -22,7 +22,6 @@ import { MemberCardComponent } from './members/member-card/member-card.component
 import { JwtInterceptor } from './_interceptors/jwt.interceptor';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import { LoadingInterceptor } from './_interceptors/loading.interceptor';
-import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 import { DatePickerComponent } from './_forms/date-picker/date-picker.component';
 import { TextInputComponent } from './_forms/text-input/text-input.component';
 import { MemberMessagesComponent } from './members/member-messages/member-messages.component';
@@ -33,6 +32,7 @@ import { RolesModalComponent } from './modals/roles-modal/roles-modal.component'
 import { HasRoleDirective } from './directives/has-role.directive';
 import { RouteReuseStrategy } from '@angular/router';
 import { CustomRouteReuseStrategy } from './_services/CustomRouteReuseStrategy';
+import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 
 @NgModule({
   declarations: [
